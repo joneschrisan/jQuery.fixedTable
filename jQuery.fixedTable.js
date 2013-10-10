@@ -56,8 +56,7 @@
     $.fixedTableByClassName = function(className, options) {
         options = $.extend({}, $.FixedTable.defaults, options);
         
-        var tables = document.getElementsByTagName('table');
-        $(tables).each(function(index, element) {
+        $('table').each(function(index, element) {
             if($(element).hasClass(className)) {
                 $(element).fixedTable(options)
             }
