@@ -3,13 +3,14 @@ jQuery.fixedTable
 
 A jQuery extension to fix headers within a table
 
-Table header tags will be fixed.
 
-Column headers must be within the <thead> tag.
-Column footers must be within the <tfoot> tag.
-Row headers must still be <th> tags but must be within the <tbody> tag
-
-The table must have an id attribute.
+    Table header tags will be fixed.
+    
+    Column headers must be within the <thead> tag.
+    Column footers must be within the <tfoot> tag.
+    Row headers must still be <th> tags but must be within the <tbody> tag
+    
+    The table must have an id attribute.
 
 
 Example 1 (Individual Table):
